@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DigitalSignature</string>
+    <string name="send_description">When you click the \"send\" Button, the text will be processed by a type of hash function, then the hash code will attach to the text with the encrypted private key.</string>
+</resources>

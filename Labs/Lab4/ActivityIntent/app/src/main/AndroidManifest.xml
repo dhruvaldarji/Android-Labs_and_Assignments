@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ddarji.lab4.activityintent" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".IntentActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IntentActivityB"
+            android:label="@string/title_activity_b" >
+        </activity>
+        <activity
+            android:name=".ImplicitIntent"
+            android:label="@string/title_activity_implicit_intent" >
+        </activity>
+        <!--Implicit Activity A-->
+        <activity
+            android:name=".ImplicitActivityA"
+            android:label="@string/title_activity_implicit" >
+            <intent-filter>
+                <action android:name="com.wyou.action" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.wyou.category" />
+
+                <data
+                    android:host="www.wyou.com"
+                    android:scheme="wyou" />
+            </intent-filter>
+        </activity>
+        <!--Implicit Activity B-->
+        <activity
+            android:name=".ImplicitActivityB"
+            android:label="@string/title_activity_implicit_activity_b" >
+            <intent-filter>
+                <action android:name="com.wyou.actionB" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.wyou.categoryB" />
+
+                <data
+                    android:host="www.wyou.com"
+                    android:scheme="wyou" />
+            </intent-filter>
+        </activity>
+        <!--Implicit Activity C-->
+        <activity
+            android:name=".ImplicitActivityC"
+            android:label="@string/title_activity_implicit_activity_c" >
+            <intent-filter>
+                <action android:name="com.wyou.actionB" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.wyou.categoryB" />
+
+                <data
+                    android:host="www.wyou.com"
+
+                    android:scheme="wyou" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

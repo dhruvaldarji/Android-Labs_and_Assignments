@@ -1,0 +1,68 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name" />
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="@string/name_hint"
+        android:inputType="textPersonName" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/grade" />
+
+    <EditText
+        android:id="@+id/txtGrade"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="@string/grade_hint"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:text="@string/add_name"
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickAddName" />
+    <Button
+        android:text="@string/retrieve_students"
+        android:id="@+id/btnRetrieve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickRetrieveStudents" />
+
+    <Button
+        android:text="@string/update_student"
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickUpdateName" />
+
+    <Button
+        android:text="@string/delete_student"
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickDeleteName" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

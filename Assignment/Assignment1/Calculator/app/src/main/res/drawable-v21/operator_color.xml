@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Ripple Effect of Operator Button for API v21+-->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/pad_button_ripple_color">
+    <item android:drawable="@color/pad_operator_background_color"/>
+</ripple>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EncDecSms</string>
+    <string name="title_activity_display_sms">DisplaySMSActivity</string>
+
+    <string name="recipient">Recipient:</string>
+    <string name="key_description">16-Character Secret Key:</string>
+    <string name="message">Message:</string>
+    <string name="send">Send</string>
+    <string name="cancel">Cancel</string>
+    <string name="message_cannot_be_decrypted">Message Cannot Be Decrypted!</string>
+    <string name="title_activity_enc_dec_sms">EncDecSMSActivity</string>
+    <string name="sender">Sender:</string>
+    <string name="received_encrypted_message">Received Encrypted Message:</string>
+    <string name="decrypted_message">Decrypted Message:</string>
+    <string name="submit">Submit</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyFragments</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="landscape_message">This is the Landscape mode fragment.</string>
+    <string name="portrait_message">This is the Portrait mode fragment.</string>
+</resources>

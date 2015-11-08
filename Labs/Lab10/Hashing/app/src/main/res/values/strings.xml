@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hashing</string>
+    <string name="hashing">Hashing</string>
+    <string name="compare">Compare</string>
+    <string name="Back">back2</string>
+    <string name="input_second_message">Input Second Message</string>
+    <string name="message_two">Message Two</string>
+    <string name="input_first_message">Input First Message</string>
+    <string name="message_one">Message One</string>
+    <string name="type_message">Please type in the message:</string>
+    <string name="input_message">Input Message</string>
+    <string name="hash_definition">A hash is an encrypted string of letters or numbers by different encryption methods. Hashes are used in cryptography for creating strong passwords, data encryption and to check the integrity of files.</string>
+</resources>

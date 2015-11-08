@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Material"></style>
+
+    <style name="numeric_button_style" parent="android:Widget.Material.Button">
+        <item name="android:background">@drawable/numeric_color</item>
+    </style>
+
+    <style name="operator_button_style" parent="android:Widget.Material.Button">
+        <item name="android:background">@drawable/operator_color</item>
+    </style>
+</resources>

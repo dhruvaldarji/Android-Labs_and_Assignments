@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Encrypt</string>
+    <string name="hello_world">Hello World, EncryptActivity!</string>
+    <string name="input_message">Input Message</string>
+    <string name="encrypt_by_public_key">Encrypt it by PublicKey</string>
+    <string name="encrypted_message_label">Encrypted Message: </string>
+    <string name="original_message_label">Original Message: </string>
+    <string name="encrypted_message"> </string>
+    <string name="decrypt_button">Decrypt it by PrivateKey</string>
+    <string name="original_message"> </string>
+</resources>
